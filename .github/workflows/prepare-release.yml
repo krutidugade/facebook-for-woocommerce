@@ -20,6 +20,8 @@ on:
       wc-version:
         description: 'WooCommerce tested up to'
 
+permissions:
+  contents: write
 
 jobs:
   PrepareRelease:
