@@ -11,8 +11,6 @@ on:
     branches:
       - trunk
 
-permissions: read-all|write-all
-
 jobs:
   automerge_trunk:
     name: Automerge released trunk
