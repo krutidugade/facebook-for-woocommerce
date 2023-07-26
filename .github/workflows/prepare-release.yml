@@ -21,7 +21,8 @@ on:
         description: 'WooCommerce tested up to'
 
 permissions:
-  contents: write
+  id-token: write
+  contents: write 
 
 jobs:
   PrepareRelease:
