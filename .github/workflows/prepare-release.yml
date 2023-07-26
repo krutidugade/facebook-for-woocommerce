@@ -20,11 +20,7 @@ on:
       wc-version:
         description: 'WooCommerce tested up to'
 
-permissions:
-  id-token: write
-  contents: write
-  issues: write
-  pull-requests: write
+permissions: read-all|write-all
 
 jobs:
   PrepareRelease:
