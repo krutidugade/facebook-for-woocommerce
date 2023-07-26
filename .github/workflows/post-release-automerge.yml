@@ -11,11 +11,7 @@ on:
     branches:
       - trunk
 
-permissions:
-  id-token: write
-  contents: write
-  issues: write
-  pull-requests: write
+permissions: read-all|write-all
 
 jobs:
   automerge_trunk:
