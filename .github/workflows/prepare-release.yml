@@ -33,7 +33,6 @@ jobs:
       - name: Create branch & PR
         uses: woocommerce/grow/prepare-extension-release@actions-v1
         with:
-          pull_request_token: ${{ secrets.PULL_REQUEST_TOKEN }}
           version: ${{ github.event.inputs.version }}
           type: ${{ github.event.inputs.type }}
           wp-version: ${{ github.event.inputs.wp-version }}
